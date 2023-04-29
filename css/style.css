@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dafoy{
+    font-family: 'Mr Dafoe', cursive;
+}
+
+
+/* body */
+body{
+    background-color: #F67E3A;
+    overflow-x: hidden;
+    min-height: 100vh;
+}

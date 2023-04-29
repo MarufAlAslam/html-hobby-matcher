@@ -2,10 +2,16 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .dafoy{
     font-family: 'Mr Dafoe', cursive;
+}
+
+/* universal */
+.h-screen{
+    min-height: calc(100vh-100px);
 }
 
 
@@ -14,4 +20,50 @@ body{
     background-color: #F67E3A;
     overflow-x: hidden;
     min-height: 100vh;
+}
+
+
+/* logo */
+.logo {
+    color: white;
+    text-shadow: 5px 0px #FFA621;
+    background: #F8B98B;
+    display: inline-flex;
+    padding: 10px 30px;
+    border-radius: 60px;
+    border: 5px solid #FFA621;
+    font-size: 30px;
+    margin: 0 !important;
+}
+
+.btn-outlined-orange{
+    background: #F8B98B;
+    color: white;
+    display: inline-flex;
+    padding: 10px 30px;
+    border-radius: 60px;
+    border: 5px solid #FFA621;
+    transition: 0.5s;
+    font-size: 24px;
+}
+
+.btn-outlined-orange:hover{
+    background: #FFA621;
+    color: white;
+    display: inline-flex;
+    padding: 10px 30px;
+    border-radius: 60px;
+    border: 5px solid #FFA621;
+    font-size: 24px;
+}
+
+
+
+/* form items */
+.form-control{
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+.input-group label {
+    width: 25%;
 }

@@ -13,3 +13,28 @@ body{
 .border-red{
     border-color: #AA1601
 }
+
+body{
+    margin: 25px;
+    font-family: verdana;
+  }
+  
+  h1{
+    color: darkslategray;
+  }
+  
+  p {
+    font-size: 12pt;
+    color: black;
+  }
+  canvas {
+    height: 175px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+  }
+  
+  input {
+    font-family: verdana;
+    font-size: 12pt;
+  }

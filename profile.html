@@ -15,8 +15,8 @@
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- login css -->
-    <link rel="stylesheet" href="css/login.css">
+    <!-- profile css -->
+    <link rel="stylesheet" href="css/profile.css">
   </head>
   <body>
 
@@ -46,11 +46,47 @@
       <!-- profile card -->
       <section class="profile-card py-5">
         <div class="container">
-            <div class="card btn-outlined-orange bg-white w-100">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="img/avatar.png" class="img-fluid" alt="">
+            <div class="row">
+                <div class="card col-md-8 mx-auto btn-outlined-orange bg-white">
+                    <div class="card-body text-black">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/avatar.png" class="img-fluid mb-4" alt="">
+                                <button class="btn btn-outlined-orange w-100 fs-5 mb-4 text-center d-flex justify-content-center align-items-center text-black">
+                                    Update Profile Picture
+                                </button>
+                                <button class="btn btn-outlined-orange w-100 fs-5 mb-4 text-center d-flex justify-content-center align-items-center text-black">
+                                    Update Hobbies
+                                </button>
+                                <button class="btn btn-outlined-orange w-100 fs-5 mb-4 text-center d-flex justify-content-center align-items-center text-black">
+                                    Update Bio
+                                </button>
+                            </div>
+    
+                            <div class="col-md-7">
+                                <h2 class="text-black fw-bold mb-2">Your Profile</h2>
+                                <div class="line my-2"></div>
+    
+                                <h3 class="mt-4 fw-semibold">
+                                    Sivar Omar
+                                </h3>
+                                <h4>
+                                    Hobbies: Swimming, Football, Art
+                                </h4>
+    
+                                <div class="bio btn-outlined-orange text-center mt-5">
+                                    <h3 class="text-black">
+                                        Bio: Hi, I’m Sivar, I enjoy painting, swimming, football. I am also interested in finding new hobbies. 
+                                    </h3>
+                                </div>
+
+                                <div class="mt-5 text-end">
+                                    <a href="" class="btn btn-outlined-orange border-red text-white bg-danger">
+                                        Sign Out
+                                    </a>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

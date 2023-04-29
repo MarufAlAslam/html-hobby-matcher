@@ -1,0 +1,9 @@
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: black;
+}
+
+.border-red{
+    border-color: #AA1601
+}

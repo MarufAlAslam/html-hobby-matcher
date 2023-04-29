@@ -1,0 +1,33 @@
+body{
+    background-color: #FF9A62;
+}
+.topbar{
+    background-color: #F67E3A;
+}
+.chat-avatar{
+    min-width: 60px;
+    width: 60px;
+}
+.fs-14{
+    font-size: 16px;
+}
+.bg-chat{
+    background-color: #AAA8A8;
+}
+.chat-header {
+    font-size: 24px;
+    padding: 10px 0;
+    background: #F8B98B;
+    border: 5px solid #FFA621;
+    border-top: -0;
+    border-radius: 0 0 20px 20px;
+    font-weight: bold;
+}
+.message-body {
+    background: white;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 300px;
+}

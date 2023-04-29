@@ -67,3 +67,72 @@ body{
 .input-group label {
     width: 25%;
 }
+
+
+
+@media screen and (max-width: 767px){
+    .topbar .d-flex.justify-content-between.align-items-center {
+        flex-direction: column;
+    }
+    .topbar .d-flex.justify-content-end.align-items-center {
+        margin-top: 20px;
+    }
+    .input-group.mb-4.w-100.btn-outlined-orange {
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 10px 15px;
+    }
+    .input-group label {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .input-group input {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .card-body {
+        padding: 10px 0;
+    }
+    .lead {
+        font-size: 20px !important;
+    }
+    h3.fs-1.fw-bold {
+        font-size: 24px !important;
+    }
+    .card.col-md-8.mx-auto.btn-outlined-orange.bg-white {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+
+
+    /* profile */
+    .after, .after * {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .bio.btn-outlined-orange.text-center.mt-5 {
+        border-radius: 10px;
+    }
+
+
+
+    /* contacts */
+    .message-editor.w-100.p-3 form {
+        flex-direction: column;
+    }
+    .message-editor.w-100.p-3 form button {
+        margin-top: 15px;
+        margin-left: auto;
+    }
+
+
+    /* matcher */
+    .demo__card-cont {
+        width: 100% !important;
+    }
+    .demo__card {
+        box-shadow: unset !important;
+    }
+}

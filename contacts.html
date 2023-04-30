@@ -85,27 +85,15 @@
                         Justin Timberlake
                     </div>
                     <div class="message-field p-4 h-100 bg-chat d-flex flex-column justify-content-between align-items-center">
-                        <div class="messages w-100">
-                            <div class="received mb-4 d-flex justify-content-start align-items-center">
-                                <img src="img/chat1.png" class="img-fluid chat-avatar sender-img" alt="">
-                                <div class="message-body">
-                                    Hey Sivar, would you like to play some football with me this weekend?
-                                </div>
-                            </div>
-                            <div class="sent mb-4 d-flex justify-content-end align-items-center">
-                                
-                                <div class="message-body bg-primary text-white">
-                                    Absolutely I would, what day is it on?
-                                </div>
-                                <img src="img/chat2.png" class="img-fluid chat-avatar ms-2" alt="">
-                            </div>
+                        <div class="messages w-100" id="chatBox">
+                            <p class="fs-4 text-center">Select Profile to Display Chat</p>
                         </div>
 
                         <div class="message-editor w-100 p-3">
-                            <form action="" class="d-flex justify-content-between align-items-center">
-                                <div class="input-group me-4 w-100 btn-outlined-orange p-2">
+                            <form action="" id="newMessageForm" class="d-flex justify-content-between align-items-center">
+                                <div class="input-group me-4 w-100 btn-outlined-orange p-2 rounde">
                                    
-                                    <textarea class="form-control rounded-pill" type="text" name="message" id="message" required></textarea>
+                                    <textarea class="form-control rounded-pill" type="text" name="message" id="newMessage" required></textarea>
 
                                   </div>
 

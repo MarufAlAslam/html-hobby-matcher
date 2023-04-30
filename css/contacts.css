@@ -51,3 +51,21 @@ body{
     margin-right: 0;
     margin-left: 10px;
 }
+
+
+div#chatBox {
+    overflow: hidden;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+div#chatBox::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  div#chatBox {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
